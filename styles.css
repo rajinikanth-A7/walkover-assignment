@@ -1,0 +1,142 @@
+body{
+    color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.left-section{
+    border:1px solid lightyellow;
+}
+.container{
+    background-color: black;
+
+}
+.top-section h4{
+    position: relative;
+    left:20px;
+    top:5px;
+}
+
+#search-bar{
+    background-color: rgb(32, 32, 32);
+    color: blanchedalmond;
+    border-radius: 2px;
+    position: relative;
+    left:100px;
+    top:5px;
+    cursor: pointer;
+}
+
+#members{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:20px;
+}
+.mem{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid lightyellow;
+    border-radius: 5px;
+    margin-right:20px;
+}
+
+.img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #ff7504;
+    opacity: 80%;
+    padding-top: 15px;
+    padding-left: 10px;
+    color:lightyellow;
+    border: 2px dotted goldenrod;
+    margin:2px;
+}
+.img:hover{
+    cursor: pointer;
+}
+
+.name{
+    position: relative;
+    top: 15px;
+    border:1px solid lightslategray;
+    height:25px;
+    width:140px;
+    text-align: center;
+    border-radius:4px;
+}
+.name:hover{
+    cursor: pointer;
+    color:goldenrod;
+}
+
+//RIGHT-SECTION
+
+#right-section{
+    background-color:#312833;
+}
+#right-section h5{
+    position: relative;
+    top:-20x;
+    left:40px;
+}
+
+.image{
+    position: relative;
+    top: 5px;
+    height: 60px;
+    width: 60px;
+    color: lightyellow;
+    border: 1px dotted goldenrod;
+    border-radius: 50%;
+    text-align: center;
+    background-color: firebrick;
+}
+.image:hover{
+    cursor: pointer;
+}
+.user{
+        height: 70px;
+        width: 800px;
+        border: 1px solid lightyellow;
+        border-radius: 5px;
+        position: relative;
+        top: 10px;
+        left: -20px;
+}
+.title{
+    position: relative;
+    top: -45px;
+    left: 75px;
+}
+.title:hover{
+    cursor: pointer;
+    color:goldenrod;
+}
+.user-details h6{
+    position: relative;
+    top: -65px;
+    left: 150px;
+    opacity: 80%;
+    color:grey;
+}
+
+.desc{
+    position: relative;
+    top:-72px;
+    left: 70px;
+}
+
+#message{
+        width: 799px;
+        height: 50px;
+        position: relative;
+        top: 15px;
+        left: -20px;
+        background: black;
+        color: lightyellow;
+        border: 1px solid lightyellow;
+        border-radius: 5px;
+}
